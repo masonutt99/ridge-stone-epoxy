@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://masonutt99.github.io/ridge-stone-epoxy/sitemap.xml

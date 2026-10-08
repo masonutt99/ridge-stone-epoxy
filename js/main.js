@@ -64,7 +64,7 @@
 
     // Reveal on scroll
     if (!reduceMotion) {
-      var revealEls = document.querySelectorAll('.section-head, .card, .step, .g-item, .about-inner > *, .quote-form, .warranty-inner > *');
+      var revealEls = document.querySelectorAll('.section-head, .card, .step, .g-item, .faq-item, .about-inner > *, .quote-form, .warranty-inner > *');
       var revealObs = new IntersectionObserver(function (entries) {
         entries.forEach(function (entry) {
           if (entry.isIntersecting) { entry.target.classList.add('is-visible'); revealObs.unobserve(entry.target); }
